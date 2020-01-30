@@ -11,43 +11,28 @@
 </head>
 
 <body>
-    <br>
-    <br>
-    <div class="modal-box _layer-z-1 box" style="border: 15px solid white;  margin: auto;  max-width: 1000px;">
-        <header class="header-box">
-            <h1 class="title _font-size-xxl _sukhumvit-reg ._txt-bold ._txt-shadow _txt-center ">
-                <p>Courses Price change</p>
-            </h1>
-        </header>
+    <div class=" container-box _layer-z-1 box ">
+        <h1 class=" header-box title  _font-size-xxl _sukhumvit-reg ._txt-bold ._txt-shadow _txt-center ">
+            Courses Price change
+        </h1>
         <div class="row-box">
-            <div class="col-md-6">
-                <div class="form-row">
-                    <h3>
-                        <div class="_font-size-xxl _sukhumvit-reg ._txt-bold ._txt-shadow  _float-right">
-                            <p>วันที่เริ่ม:</p>
-                            <input class="forminput -inline -md" type="datetime-local">
-                        </div>
-                    </h3>
+            <div class="col-md-6 form-row  ">
+                <div class="_float-right">
+                    <h3 class="_font-size-xxl _sukhumvit-reg ._txt-bold ._txt-shadow  ">วันที่เริ่ม:</h3>
+                    <input class="forminput -inline -md" type="datetime-local">
                 </div>
             </div>
-            <div class="col-md-6 ">
-                <div class="form-row">
-                    <h3>
-                        <div class="_font-size-xxl _sukhumvit-reg ._txt-bold ._txt-shadow ">
-                            <p>วันที่จบ:</p>
-                            <input class="forminput -inline -md" type="datetime-local"><button
-                                class="dekdbutton -orange-theme -md"><i class="fa fa-search"></i></button>
-                        </div>
-                    </h3>
-
-                </div>
+            <div class="col-md-6 form-row">
+                <h3 class="_font-size-xxl _sukhumvit-reg ._txt-bold ._txt-shadow">วันที่จบ:</h3>
+                <input class="forminput -inline -md" type="datetime-local">
+                <button class="dekdbutton -orange-theme -md"><i class="fa fa-search"></i></button>
             </div>
         </div>
         <table class="table-box -bordered -striped _txt-center cell-padding-x:10px ._tahoma">
-            <thead style="color: white; background-color: #F37A01;">
+            <thead class="thead">
                 <tr>
-                    <th rowspan="2" style="vertical-align:middle">เวลา</th>
-                    <th rowspan="2" style="vertical-align:middle">คอร์ส</th>
+                    <th rowspan="2">เวลา</th>
+                    <th rowspan="2">คอร์ส</th>
                     <th colspan="4">Before</th>
                     <th colspan="4">After</th>
                 </tr>
@@ -139,5 +124,22 @@
         </table>
     </div>
 </body>
+<style>
+    .container-box {
+        margin-top: 30px;
+        background-color: white;
+        border: 15px solid white;
+        max-width: 1000px;
+    }
+
+    .thead {
+        color: white;
+        background-color: #F37A01;
+    }
+
+    th {
+        vertical-align: middle;
+    }
+</style>
 
 </html>

@@ -11,21 +11,16 @@
 </head>
 
 <body>
-    <br>
-    <br>
-    <div class="modal-box _layer-z-1 box  " style=" border: 15px solid white; margin: auto;max-width: 1000px;">
-        <header class="header-box">
-            <h1 class="title _font-size-xxl _sukhumvit-reg ._txt-bold ._txt-shadow _txt-center ">
-                <p>CoursesProfit</p>
+    <div class=" container-box _layer-z-1 box " >
+            <h1 class=" header-box title _font-size-xxl _sukhumvit-reg ._txt-bold ._txt-shadow _txt-center ">
+                CoursesProfit
             </h1>
-        </header>
-        <div class="modal-body">
             <div class="form-row">
-                <input class="forminput -inline -md" type="datetime-local"><button
-                    class="dekdbutton -orange-theme -md"><i class="fa fa-search"></i></button>
+                <input class="forminput -inline -md" type="datetime-local">
+               <button class="dekdbutton -orange-theme -md"><i class="fa fa-search"></i></button>
             </div>
             <table class="table-box -bordered -striped _txt-center cell-padding-x:10px ._tahoma">
-                <thead style="color: white; background-color: #F37A01;">
+                <thead class="thead" >
                     <tr>
                         <th>คอร์ส</th>
                         <th>ราคาต้น</th>
@@ -94,8 +89,17 @@
                 </tbody>
             </table>
         </div>
-    </div>
-
 </body>
-
+<style>
+    .container-box {
+        margin-top: 30px;
+        background-color: white;
+        border: 15px solid white;
+        max-width: 1000px;
+    }
+    .thead{
+        color: white; 
+        background-color: #F37A01;
+    }
+</style>
 </html>
