@@ -1,0 +1,10 @@
+.modal-box {
+    border: 15px solid white;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.tablehead {
+    color: white;
+    background-color: #F37A01;
+}
