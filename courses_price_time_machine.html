@@ -11,23 +11,19 @@
 </head>
 
 <body>
-    <div class=" container-box _layer-z-1 box ">
+    <div class=" box _layer-z-1 box ">
         <!-- header -->
-        <h1 class=" header-box title _font-size-xxl _sukhumvit-reg  _txt-center">
+        <h1 class="  _sukhumvit-reg  _txt-center">
             Course Price time machine
         </h1>
         <div class="inputform">
-            <div class="_margin-x-xs form-row">
                 <!-- input -->
-                <input class="forminput -inline -md" type="datetime-local">
-            </div>
-            <div class="_margin-x-xs form-row">
+                <input class="forminput -inline -md  " type="datetime-local">
                 <!-- searchButton  -->
-                <button class="dekdbutton -orange-theme -md"><i class="fa fa-search"></i></button>
-            </div>
+                <button class="dekdbutton  -orange-theme -md"><i class="fa fa-search"></i></button>
         </div>
         <!-- ส่วน table -->
-        <table class="table-box -bordered -striped _txt-center cell-padding-x:10px ._tahoma">
+        <table class="table-box -bordered -striped _txt-center  ">
             <thead class="thead">
                 <tr>
                     <th>คอร์ส ID</th>
@@ -117,8 +113,10 @@
 </body>
 <style>
     /* ตัว box  */
-    .container-box {
+    .box {
         margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
         background-color: white;
         border: 15px solid white;
         max-width: 1000px;
@@ -128,6 +126,8 @@
     .inputform {
         display: flex;
         justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     /* หัวของ table */
